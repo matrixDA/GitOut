@@ -10,8 +10,6 @@ namespace GitOut.Controllers
         }
         public JsonResult name()
         {
-            string name = "";
-
             string output = false ? "Dinesh Adhikari": "Dinesh Adhikari";
 
             return Json(output);
